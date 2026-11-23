@@ -1,4 +1,4 @@
-### Sistema de Préstamos de Biblioteca 
+## Sistema de Préstamos de Biblioteca 
 
 
 
@@ -6,25 +6,25 @@ Aplicación en Java para gestionar los préstamos de una biblioteca. Permite reg
 
 socios, prestar libros disponibles (máximo 3 por socio) y devolverlos. 
 
-\### Uso 
+# Uso 
 
-\-Clona el repositorio: 
+1-Clona el repositorio: 
 
 git clone https://github.com/victorvergelgregorio/ApellidoNombreExamen2026-27.git 
 
-\-Copia config/secretos.properties con tus credenciales (no se sube al repositorio). 
+2-Copia config/secretos.properties con tus credenciales (no se sube al repositorio). 
 
-\-Compila el proyecto desde la carpeta src: 
+3-Compila el proyecto desde la carpeta src: 
 
 javac -d out Main.java modelo/\*.java servicio/\*.java
 
-\-Ejecuta la aplicación:
+4-Ejecuta la aplicación:
 
 java -cp out Main 
 
-\-Ejecuta los tests de test/PrestamoTest.java con JUnit 5. 
+5-Ejecuta los tests de test/PrestamoTest.java con JUnit 5. 
 
-\### Autor 
+# Autor 
 
 ApellidoNombre
 
